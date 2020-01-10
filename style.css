@@ -38,6 +38,7 @@ body{
  .container{
  	display: flex;
  }
+
 @media screen and (max-width: 700px) {
 	
 	.container{
@@ -50,7 +51,7 @@ body{
 	display: flex;
     flex-direction: column;
     width: 20%;
-    height: 100%;
+    
 }
 
 @media screen and (max-width: 700px){
@@ -64,6 +65,13 @@ body{
 	background-color: #feca07;
     flex: .25;
 
+}
+
+    
+.photos{
+	display: flex;
+    max-width: 100%;
+    align-items: center;
 }
 
 .contact{
