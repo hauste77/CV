@@ -144,8 +144,7 @@ h3{
 .im-photo{
 	
     border-radius: 50%;
-    margin-right: auto;
-    margin-left: auto;
+    margin: auto;
     border: 3px solid #B88C1F;
     width: 200px;
     }
