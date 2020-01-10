@@ -39,10 +39,11 @@ body{
  	display: flex;
  }
 
-@media screen and (max-width: 700px) {
+@media screen and (max-width: 780px) {
 	
 	.container{
 		display: block;
+		box-sizing: border-box;
 	}
 }
 
@@ -54,9 +55,22 @@ body{
     
 }
 
-@media screen and (max-width: 700px){
+@media screen and (max-width: 1030px){
 	.left{
-		width: 100%;
+		width: 30%;
+	}
+}
+
+@media screen and (max-width: 780px){
+	.left{
+		width: auto;
+		height: 50%;
+	}
+}
+
+@media screen and (max-width: 500px){
+	.left{
+		width: auto;
 		height: 50%;
 	}
 }
@@ -102,12 +116,19 @@ body{
     height: 100%;
 }
 
-@media screen and (max-width: 700px){
+@media screen and (max-width: 780px){
 	.right{
+		width: auto;
 		height: 50%;
 	}
 }
 
+@media screen and (max-width: 500px){
+	.right{
+		width: auto;
+		height: 50%;
+	}
+}
 
 .nom{
 	
@@ -149,12 +170,7 @@ h3{
     width: 200px;
     }
 
-   @media screen and (max-width: 700px){
-   	  .im-photo{
-   	  	    margin: 60px 0 0px 200px;
-
-   	  }
-   }
+   
 
 p{
     	text-align: left;
@@ -162,12 +178,7 @@ p{
     	margin-right: 50px;
    }
 
-   @media screen and (max-width: 700px){
-	 
-	 p{
-	 	text-align: center;
-	 }
-}
+   
 /*
     .fas{
     	
@@ -249,6 +260,12 @@ hr{
 	margin-top: 7px;
 }
 
+@media screen and (max-width: 780px){
+	.pg{
+		width: auto;
+	}
+}  
+
 .pd{
 	margin-left: 250px;
 	width: 70%;
@@ -272,10 +289,16 @@ hr{
 */
 .p-footer-d{
 	float: right;
-	margin-right: 260px;
+	margin-right: 290px;
 }
 
-@media screen and (max-width: 700px){
+@media screen and (max-width: 1300px){
+	.p-footer-d{
+		margin-right: 100px;
+	}
+}
+
+@media screen and (max-width: 1030px){
 	.p-footer-d{
 		margin-right: 0;
 		position: absolute;
@@ -286,13 +309,13 @@ hr{
 	float: left;
 	margin-left: 97px;
 }
-
-@media screen and (max-width: 700px){
+/*
+@media screen and (max-width: 1030px){
 	.p-footer-g{
-		margin-left: 0;
+		margin-right: 90px;
 	}
 }
-
+*/
 .petit-ligne{
 	border-bottom: 2px solid #feca07;
 	width: 65px;
