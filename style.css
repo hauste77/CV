@@ -72,6 +72,7 @@ body{
 	display: flex;
     max-width: 100%;
     align-items: center;
+    height: 100%;
 }
 
 .contact{
@@ -141,11 +142,11 @@ h3{
 }
 
 .im-photo{
-	display: flex;
+	
     border-radius: 50%;
-    margin: 40px 0 20px 100px;
+    margin-right: auto;
+    margin-left: auto;
     border: 3px solid #B88C1F;
-    height: 200px;
     width: 200px;
     }
 
