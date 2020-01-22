@@ -343,11 +343,6 @@ div{
 
 }
 
-@media screen and (max-width: 1200px){
-	.pd{
-		margin-left: 216px;
-	}
-}
 
 @media screen and (max-width: 800px){
 	.pd{
