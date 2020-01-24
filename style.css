@@ -25,14 +25,14 @@ body{
     font-family: robotoregular, sans-serif;
     display: flex;
     margin: 0;
-   
-    
+
+
  }
 
 
- 
+
 @media screen and (max-width: 800px) {
-	
+
 	body{
 		display: block;
 	}
@@ -43,7 +43,7 @@ body{
 	display: flex;
     flex-direction: column;
     width: 20%;
-    
+
 }
 
 @media screen and (max-width: 1200px) {
@@ -57,7 +57,7 @@ body{
 		width: 70%;
 	}
 
-	
+
 }
 
 @media screen and (max-width: 800px){
@@ -127,7 +127,7 @@ body{
 
 
 .nom{
-	
+
     flex: .15;
     margin-left: 50px;
 }
@@ -139,19 +139,19 @@ body{
 }
 
 .formation{
-	
+
     flex: .25;
 }
 
 .experience{
-	
+
     flex: .50;
 
 }
 
 
 .recommandation{
-	
+
     flex: .15;
 
 }
@@ -188,7 +188,7 @@ p{
     	margin-right: 50px;
    }
 
-    
+
 .prenom{
     color: #feca07;
     margin-left: 0px;
@@ -220,9 +220,9 @@ h1{
     		text-align: center;
     		margin-left: 0;
     	}
-    }      
+    }
 
- 
+
 
 .icon{
     border-radius: 50%;
@@ -233,7 +233,7 @@ h1{
 	margin-bottom: 0px;
 	color: #908d8d;
     }
-    
+
 .logo{
 
 	margin-right: 50px;
@@ -250,7 +250,7 @@ h1{
 		.logo{
 			margin-right: 8px;
 		}
-	}			
+	}
 
 
 h2{
@@ -258,7 +258,7 @@ h2{
 	margin-top: 40px;
 	border-bottom: 2px solid #feca07;
 	width: 80%;
-	padding-bottom: 10px;		
+	padding-bottom: 10px;
 
 }
 
@@ -269,12 +269,12 @@ h2{
 
 	}
 
-	
+
 }
 
 @media screen and (max-width: 400px) {
 	h2{
-		
+
 		margin-left: 30px;
 		font-size: 16px;
 
@@ -295,7 +295,7 @@ h4{
     padding-left: 80px;
     color: #898989;
 }
-}
+
 
 div{
 	display: inline-block;
@@ -312,7 +312,7 @@ div{
 }
 
 .cercle{
-	margin-left: : 20px;
+	margin-left: 20px;
 	color: #feca07;
 
 }
@@ -365,7 +365,7 @@ div{
 .p-footer-d{
 	margin-left: 97px;
     margin-right: 250px;
-	
+
 }
 */
 .p-footer-d{
@@ -376,14 +376,14 @@ div{
 @media screen and (max-width: 1200px){
 	.p-footer-d{
 		margin-right: 0px;
-		
+
 	}
 }
 
 @media screen and (max-width: 800px){
 	.p-footer-d{
 		margin-right: 23px;
-		
+
 	}
 
 }
@@ -395,18 +395,18 @@ div{
 
 @media screen and (max-width: 1000px){
 	.p-footer-g{
-	
+
 	margin-left: 0px;
 }
 
 @media screen and (max-width: 800px){
 	.p-footer-g{
-	
+
 	margin-left: 50px;
 	 }
 
 	.p-footer-g .pard-r{
-		
+
 		text-align: justify;
 		margin-left: 30px;
 		margin-right: 40px;
@@ -439,7 +439,7 @@ div{
 	h4{
 		padding-left: 30px;
 	}
-	
+
 	.pard{
 		margin-left: 30px;
 	}
