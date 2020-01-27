@@ -138,6 +138,12 @@ body{
 	}
 }
 
+.petit-ligne{
+	border-bottom: 2px solid #feca07;
+	width: 65px;
+	margin-top: 5px;
+}
+
 .formation{
 
     flex: .25;
@@ -413,13 +419,7 @@ div{
 	}
 }
 
-.petit-ligne{
-	border-bottom: 2px solid #feca07;
-	width: 65px;
-	margin-top: 5px;
-	margin-left: 57px
 
-}
 
 @media screen and (max-width: 800px) {
 	.petit-ligne{
