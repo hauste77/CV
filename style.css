@@ -286,15 +286,17 @@ div{
 		margin-right: 0px;
 
 	}
+	.p-footer-g{
+		margin-left: 60px;
+	}
 }
 
 
 @media screen and (max-width: 1000px){
 	.p-footer-g{
-
-	margin-left: 0px;
+		margin-left: 0px;
+	}
 }
-
 @media screen and (max-width: 800px){
 	body{
 		display: block;
@@ -339,10 +341,10 @@ div{
 	}
 	.p-footer-g{
 
-		margin-left: 30px;
+		margin-left: 50px;
 	 }
 	 .p-footer-d{
-		margin-right: 20px;
+		margin-right: 50px;
 
 	}
 
