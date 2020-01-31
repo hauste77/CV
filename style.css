@@ -20,12 +20,10 @@
 }
 
 
-
 body{
     font-family: robotoregular, sans-serif;
     display: flex;
     margin: 0;
-
 
  }
 
@@ -110,12 +108,6 @@ body{
 }
 
 
-.recommandation{
-
-    flex: .15;
-
-}
-
 .separateur{
 	background-color: #616161;
     margin: 0;
@@ -165,11 +157,9 @@ h1{
 
 .icon{
     border-radius: 50%;
-	padding: 22px 10px 10px 12px;
+	padding: 22px 10px 10px 15px;
 	border: 1px solid #908d8d;
-	margin-right: 10px;
-	margin-top: 40px;
-	margin-bottom: 0px;
+	margin-right: 16px;
 	color: #908d8d;
     }
 
@@ -215,7 +205,6 @@ div{
 	position: absolute;
 	align-items: baseline;
 	padding-left: 100px;
-	margin-top: 7px;
 }
 
 .cercle{
@@ -239,8 +228,7 @@ div{
 
 .pd{
 	margin-left: 250px;
-	width: 73%;
-
+	width: 70%;
 }
 
 
@@ -255,22 +243,17 @@ div{
 
 .p-footer-d{
 	float: right;
-	margin-right: 300px;
+	margin-right: 10%;
 }
 
 .p-footer-g{
-	margin-left: 97px;
+	margin-left: 5%;
 }
 
 
 /* media queries */
 
-@media screen and (max-width: 1400px){
-	.p-footer-d{
-		margin-right: 150px;
 
-	}
-}
 
 @media screen and (max-width: 1200px){
 	.left{
@@ -282,21 +265,15 @@ div{
 
 		width: 70%;
 	}
+	.pd{
+		margin-left: 215px;
+	}
 	.p-footer-d{
-		margin-right: 0px;
-
-	}
-	.p-footer-g{
-		margin-left: 60px;
+		margin-right: 5%;
 	}
 }
 
 
-@media screen and (max-width: 1000px){
-	.p-footer-g{
-		margin-left: 0px;
-	}
-}
 @media screen and (max-width: 800px){
 	body{
 		display: block;
@@ -317,9 +294,28 @@ div{
 		margin-left: 0;
 	}
 	h2{
+		width: 90%;
 		font-size: larger;
 		margin-left: 30px;
 
+	}
+	.logo{
+		margin-right: 20px;
+	}
+	.pg{
+		padding-left: 30px;
+	}
+
+	h3{
+		margin-left: 30px;
+	}
+
+	h4{
+		padding-left: 30px;
+	}
+
+	.pard{
+		margin-left: 30px;
 	}
 	.dev{
 		display: block;
@@ -335,7 +331,7 @@ div{
 	}
 	.pg{
 		position: relative;
-		padding-left: 75px;
+		padding-left: 30px;
 		padding-bottom: 10px;
 		width: auto;
 	}
@@ -357,37 +353,12 @@ div{
 }
 
 
-@media screen and (max-width: 700px) {
-	.logo{
-		margin-right: 20px;
-	}
-	.pg{
-		padding-left: 30px;
-	}
-
-	h3{
-		margin-left: 30px;
-	}
-
-	h4{
-		padding-left: 30px;
-	}
-
-	.pard{
-		margin-left: 30px;
-	}
-}
-
 @media screen and (max-width: 400px) {
 	h2{
 
-		margin-left: 30px;
 		font-size: 16px;
 
 	}
-}
-
-@media screen and (max-width: 350px) {
 	.logo{
 		margin-right: 8px;
 	}
