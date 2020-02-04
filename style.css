@@ -19,12 +19,14 @@
 
 }
 
+/** {
+	border: 1px solid red;
+}*/
 
 body{
     font-family: robotoregular, sans-serif;
     display: flex;
-    margin: 0;
-
+	margin: 0;
  }
 
 .left{
@@ -81,12 +83,9 @@ body{
 	display: flex;
     flex-direction: column;
     width: 80%;
-    height: 100%;
 }
 
 .nom{
-
-    flex: .15;
     margin-left: 50px;
 }
 
@@ -94,17 +93,6 @@ body{
 	border-bottom: 2px solid #feca07;
 	width: 65px;
 	margin-top: 5px;
-}
-
-.formation{
-
-    flex: .25;
-}
-
-.experience{
-
-    flex: .50;
-
 }
 
 
@@ -171,7 +159,7 @@ h1{
 
 h2{
 	margin-left: 100px;
-	margin-top: 40px;
+	margin-top: 29px;
 	border-bottom: 2px solid #feca07;
 	width: 80%;
 	padding-bottom: 10px;
@@ -187,7 +175,7 @@ h3{
 
 h4{
 	width: 170px;
-    font-size: 13px;
+    font-size: 14px;
     margin: 0;
     padding-left: 80px;
     color: #898989;
@@ -335,10 +323,7 @@ div{
 		padding-bottom: 10px;
 		width: auto;
 	}
-	.p-footer-g{
-
-		margin-left: 50px;
-	 }
+	
 	 .p-footer-d{
 		margin-right: 90px;
 
@@ -359,9 +344,6 @@ div{
 		font-size: 16px;
 
 	}
-	.p-footer-d{
-		display: none;
-
-	}
+	
 	
 }
